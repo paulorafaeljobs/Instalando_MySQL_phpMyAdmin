@@ -83,5 +83,7 @@ All done!                                                                       
   </p>
 </blockquote>
 
+Agora sua instalação do MySQL estará um pouco mais segura, no entanto, ainda estará vulnerável caso utilize softwares inseguros ou mantenha o phpMyAdmin público na internet.
+
 
 
