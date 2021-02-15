@@ -1,5 +1,3 @@
-# Instalando_MySQL_phpMyAdmin
-
 <h1>Instalando o MySQL e o phpMyAdmin no Ubuntu</h1>
 
 Para instalar o MySQL server com o no Ubuntu 18.04 execute os comandos abaixo como superusuário (uma linha por vez):
