@@ -33,4 +33,54 @@ Using existing password for root.  </br>
 Change the password for root ? ((Press y|Y for Yes, any other key for No) : N  </br>
 </blockquote>
 
+Por padrão a instalação do MySQL permite o acesso de usuários anônimos, utilizados somente para testes e que não são necessários para o ambiente de produção. Pressione Y para removê-los.
+
+
+<blockquote>
+  
+  By default, a MySQL installation has an anonymous user,  </br>
+allowing anyone to log into MySQL without having to have   </br>
+a user account created for them. This is intended only for </br>
+testing, and to make the installation go a bit smoother.   </br>
+You should remove them before moving into a production     </br>
+environment.   </br>
+</br>
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : Ye
+
+</blockquote>
+
+Para evitar ataques de força bruta, é altamente recomendável desativar o acesso remoto ao usuário "root", permitindo logins para esta conta somente através do localhost. (isto não afeta o phpMyAdmin, que faz login através do localhost). Pressione Y.
+
+<blockquote>
+  
+Normally, root should only be allowed to connect from  </br>
+'localhost'. This ensures that someone cannot guess at </br>
+the root password from the network.                    </br>
+                                                       </br>
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : Y </br>
+
+</blockquote>  
+
+E por último, a instalação padrão do MySQL vem tabelas de testes que não são necessárias em ambientes de produção, pressione Y para removê-las e Y novamente para aplicar as alterações.
+
+<blockquote>
+  
+  Remove test database and access to it? (Press y|Y for Yes, any other key for No) : Y    </br>
+ - Dropping test database...                                                              </br>
+Success.                                                                                  </br>
+                                                                                          </br>
+ - Removing privileges on test database...                                                </br>
+Success.                                                                                  </br>
+                                                                                          </br>
+Reloading the privilege tables will ensure that all changes                               </br>
+made so far will take effect immediately.                                                 </br>
+                                                                                          </br>
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : Y                </br>
+Success.                                                                                  </br>
+                                                                                          </br>
+All done!                                                                                 </br>
+  
+</blockquote>
+
+
 
