@@ -64,6 +64,7 @@ Disallow root login remotely? (Press y|Y for Yes, any other key for No) : Y </br
 E por último, a instalação padrão do MySQL vem tabelas de testes que não são necessárias em ambientes de produção, pressione Y para removê-las e Y novamente para aplicar as alterações.
 
 <blockquote>
+  <p>
   
   Remove test database and access to it? (Press y|Y for Yes, any other key for No) : Y    </br>
  - Dropping test database...                                                              </br>
@@ -79,7 +80,7 @@ Reload privilege tables now? (Press y|Y for Yes, any other key for No) : Y      
 Success.                                                                                  </br>
                                                                                           </br>
 All done!                                                                                 </br>
-  
+  </p>
 </blockquote>
 
 
